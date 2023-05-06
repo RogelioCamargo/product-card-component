@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 
     <link
       rel="icon"
@@ -16,14 +16,14 @@
   </head>
   <body>
     <main>
-			<!-- Product Card -->
+      <!-- Product Card -->
       <article class="pc">
         <img
-					class="pc__image"
+          class="pc__image"
           src="./images/image-product-mobile.jpg"
           alt="gabrielle chanel purfume bottle"
         />
-        <div>Preview</div>
+        <div class="pc__preview-text">Perfume</div>
         <h1 class="pc__title">Gabrielle Essence Eau De Parfum</h1>
         <p class="pc__description">
           A floral, solar and voluptuous interpretation composed by Olivier
@@ -33,7 +33,12 @@
           <div class="pc__sale-price">$149.99</div>
           <div class="pc__price">$169.99</div>
         </div>
-        <button class="pc__atc-button">Add to Cart</button>
+        <button class="pc__atc-button">
+          <div>
+            <img src="./images/icon-cart.svg" alt="" />
+          </div>
+          <div>Add to Cart</div>
+        </button>
       </article>
     </main>
     <footer class="attribution">
