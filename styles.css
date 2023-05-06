@@ -6,6 +6,7 @@
   --gunmental-color: #1c232b;
   --aurometal-saurus-color: #6c7289;
   --aquamarine-color: #3d8168;
+	--deep-aquamarine-color: #1A4032;
   --cream-color: hsl(30, 38%, 92%);
 }
 
@@ -102,6 +103,12 @@ body {
   display: flex;
   gap: 1rem;
   justify-content: center;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.atc__button:hover {
+	background-color: var(--deep-aquamarine-color)
 }
 
 .attribution {
