@@ -40,10 +40,10 @@ body {
 }
 
 .pc__image {
-	display: block;
+  display: block;
   height: 24rem;
-	background-image: url("./images/image-product-mobile.jpg");
-	background-size: cover;
+  background-image: url("./images/image-product-mobile.jpg");
+  background-size: cover;
 }
 
 .pc__info {
@@ -97,11 +97,11 @@ body {
   padding: 1.5rem;
   border-radius: 0.8rem;
   font-weight: 700;
-	width: 100%;
-	height: 4.8rem;
-	display: flex;
-	gap: 1rem;
-	justify-content: center;
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .attribution {
@@ -113,29 +113,29 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-	.pc {
-		display: flex;
-		width: 60rem;
-		height: 45rem;
-	}
+  .pc {
+    display: flex;
+    width: 60rem;
+    height: 45rem;
+  }
 
-	.pc__image {
-		background-image: url("./images/image-product-desktop.jpg");
-		border-radius: 1rem 0 0 1rem;
-		height: 100%;
-		width: 30rem;
-	}
+  .pc__image {
+    background-image: url("./images/image-product-desktop.jpg");
+    border-radius: 1rem 0 0 1rem;
+    height: 100%;
+    width: 30rem;
+  }
 
-	.pc__info {
-		padding: 3.2rem;
-		width: 30rem;
-	}
+  .pc__info {
+    padding: 3.2rem;
+    width: 30rem;
+  }
 
-	.pc__title {
-		margin: 2rem 0 2.4rem 0;
-	}
+  .pc__title {
+    margin: 2rem 0 2.4rem 0;
+  }
 
-	.pc__pricing {
-		margin: 3rem 0;
-	}
+  .pc__pricing {
+    margin: 3rem 0;
+  }
 }
