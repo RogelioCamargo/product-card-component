@@ -29,14 +29,14 @@ body {
 
 .pc {
   background-color: #fff;
-	border-radius: 1rem;
-	height: 61.1rem;
-	width: 34.3rem;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	overflow: hidden;
+  border-radius: 1rem;
+  height: 61.1rem;
+  width: 34.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 .pc__image {
@@ -45,7 +45,7 @@ body {
 }
 
 .pc__info {
-	padding: 2.4rem;
+  padding: 2.4rem;
 }
 
 .pc__preview-text {
@@ -58,21 +58,21 @@ body {
 .pc__title {
   font-family: var(--fraunces-font);
   font-size: 3.2rem;
-	line-height: 3.2rem;
-	font-weight: 700;
+  line-height: 3.2rem;
+  font-weight: 700;
   color: var(--gunmental-color);
-	margin: 1.2rem 0 1.6rem 0;
+  margin: 1.2rem 0 1.6rem 0;
 }
 
 .pc__description {
-	line-height: 2.3rem;
+  line-height: 2.3rem;
 }
 
 .pc__pricing {
   display: flex;
   align-items: center;
   gap: 2rem;
-	margin: 2.4rem 0 2.0rem 0;
+  margin: 2.4rem 0 2rem 0;
 }
 
 .pc__sale-price {
@@ -100,9 +100,9 @@ body {
 }
 
 .attribution {
-	position: absolute;
-	bottom: 0;
-	font-size: 1.2rem;
-	text-align: center;
-	width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
 }
