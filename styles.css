@@ -107,6 +107,10 @@ body {
 	cursor: pointer;
 }
 
+.btn__button > span {
+	display: block;
+}
+
 .atc__button:hover {
 	background-color: var(--deep-aquamarine-color)
 }
