@@ -6,7 +6,7 @@
   --gunmental-color: #1c232b;
   --aurometal-saurus-color: #6c7289;
   --aquamarine-color: #3d8168;
-	--deep-aquamarine-color: #1A4032;
+  --deep-aquamarine-color: #1a4032;
   --cream-color: hsl(30, 38%, 92%);
 }
 
@@ -26,6 +26,15 @@ body {
   min-height: 100vh;
   color: var(--aurometal-saurus-color);
   background-color: var(--cream-color);
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .pc {
@@ -50,7 +59,7 @@ body {
   padding: 2.4rem;
 }
 
-.pc__preview-text {
+.pc__category {
   font-size: 1.2rem;
   letter-spacing: 0.5rem;
   line-height: 1.5rem;
@@ -85,10 +94,6 @@ body {
   font-family: var(--fraunces-font);
 }
 
-.pc__price {
-  text-decoration: line-through;
-}
-
 .atc__button {
   border: 0;
   color: #fff;
@@ -102,16 +107,16 @@ body {
   display: flex;
   gap: 1rem;
   justify-content: center;
-	font-weight: 700;
-	cursor: pointer;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .btn__button > span {
-	display: block;
+  display: block;
 }
 
 .atc__button:hover {
-	background-color: var(--deep-aquamarine-color)
+  background-color: var(--deep-aquamarine-color);
 }
 
 .attribution {
