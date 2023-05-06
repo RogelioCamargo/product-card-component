@@ -43,7 +43,6 @@ body {
 .pc__image {
   display: block;
   height: 24rem;
-  background-image: url("./images/image-product-mobile.jpg");
   background-size: cover;
 }
 
@@ -131,7 +130,6 @@ body {
   }
 
   .pc__image {
-    background-image: url("./images/image-product-desktop.jpg");
     border-radius: 1rem 0 0 1rem;
     height: 100%;
     width: 30rem;
