@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./styles.css">
 
     <link
       rel="icon"
@@ -13,37 +13,27 @@
     />
 
     <title>Frontend Mentor | Product preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
-      <article class="product__card">
+			<!-- Product Card -->
+      <article class="pc">
         <img
-					class="product__image"
+					class="pc__image"
           src="./images/image-product-mobile.jpg"
           alt="gabrielle chanel purfume bottle"
         />
         <div>Preview</div>
-        <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
-        <p class="product__description">
+        <h1 class="pc__title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="pc__description">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
-        <div>
-          <div>$149.99</div>
-          <div>$169.99</div>
+        <div class="pc__pricing">
+          <div class="pc__sale-price">$149.99</div>
+          <div class="pc__price">$169.99</div>
         </div>
-        <button>Add to Cart</button>
+        <button class="pc__atc-button">Add to Cart</button>
       </article>
     </main>
     <footer class="attribution">
